@@ -1,0 +1,477 @@
+[
+  {
+    "code": "AL", "label": "Alabama",
+    "image": "assets/plates/state/AL.jpg",
+    "variants": [
+      { "id": "al_standard",      "label": "Standard",       "image": "assets/plates/variants/al_standard.jpg" },
+      { "id": "al_heart_of_dixie","label": "Heart of Dixie", "image": "assets/plates/variants/al_heart_of_dixie.jpg" }
+    ]
+  },
+  {
+    "code": "AK", "label": "Alaska",
+    "image": "assets/plates/state/AK.jpg",
+    "variants": [
+      { "id": "ak_standard",         "label": "Standard",          "image": "assets/plates/variants/ak_standard.jpg" },
+      { "id": "ak_the_last_frontier","label": "The Last Frontier",  "image": "assets/plates/variants/ak_the_last_frontier.jpg" }
+    ]
+  },
+  {
+    "code": "AZ", "label": "Arizona",
+    "image": "assets/plates/state/AZ.jpg",
+    "variants": [
+      { "id": "az_standard",     "label": "Standard",      "image": "assets/plates/variants/az_standard.jpg" },
+      { "id": "az_grand_canyon", "label": "Grand Canyon",  "image": "assets/plates/variants/az_grand_canyon.jpg" },
+      { "id": "az_sunset",       "label": "Sunset",        "image": "assets/plates/variants/az_sunset.jpg" }
+    ]
+  },
+  {
+    "code": "AR", "label": "Arkansas",
+    "image": "assets/plates/state/AR.jpg",
+    "variants": [
+      { "id": "ar_standard",    "label": "Standard",    "image": "assets/plates/variants/ar_standard.jpg" },
+      { "id": "ar_natural_state","label": "Natural State","image": "assets/plates/variants/ar_natural_state.jpg" }
+    ]
+  },
+  {
+    "code": "CA", "label": "California",
+    "image": "assets/plates/state/CA.jpg",
+    "variants": [
+      { "id": "ca_standard",    "label": "Standard Blue Sky","image": "assets/plates/variants/ca_standard.jpg" },
+      { "id": "ca_yosemite",    "label": "Yosemite",         "image": "assets/plates/variants/ca_yosemite.jpg" },
+      { "id": "ca_coastal",     "label": "California Coastal","image": "assets/plates/variants/ca_coastal.jpg" },
+      { "id": "ca_veterans",    "label": "Veterans",          "image": "assets/plates/variants/ca_veterans.jpg" }
+    ]
+  },
+  {
+    "code": "CO", "label": "Colorado",
+    "image": "assets/plates/state/CO.jpg",
+    "variants": [
+      { "id": "co_standard",    "label": "Standard",      "image": "assets/plates/variants/co_standard.jpg" },
+      { "id": "co_mountains",   "label": "Mountains",     "image": "assets/plates/variants/co_mountains.jpg" },
+      { "id": "co_ski_country", "label": "Ski Country",   "image": "assets/plates/variants/co_ski_country.jpg" },
+      { "id": "co_centennial",  "label": "Centennial",    "image": "assets/plates/variants/co_centennial.jpg" }
+    ]
+  },
+  {
+    "code": "CT", "label": "Connecticut",
+    "image": "assets/plates/state/CT.jpg",
+    "variants": [
+      { "id": "ct_standard",      "label": "Standard",         "image": "assets/plates/variants/ct_standard.jpg" },
+      { "id": "ct_constitution",  "label": "Constitution State","image": "assets/plates/variants/ct_constitution.jpg" }
+    ]
+  },
+  {
+    "code": "DE", "label": "Delaware",
+    "image": "assets/plates/state/DE.jpg",
+    "variants": [
+      { "id": "de_standard",    "label": "Standard",    "image": "assets/plates/variants/de_standard.jpg" },
+      { "id": "de_first_state", "label": "First State", "image": "assets/plates/variants/de_first_state.jpg" }
+    ]
+  },
+  {
+    "code": "FL", "label": "Florida",
+    "image": "assets/plates/state/FL.jpg",
+    "variants": [
+      { "id": "fl_standard",        "label": "Standard",        "image": "assets/plates/variants/fl_standard.jpg" },
+      { "id": "fl_sunshine_state",  "label": "Sunshine State",  "image": "assets/plates/variants/fl_sunshine_state.jpg" },
+      { "id": "fl_sea_turtle",      "label": "Sea Turtle",      "image": "assets/plates/variants/fl_sea_turtle.jpg" },
+      { "id": "fl_space_shuttle",   "label": "Space Shuttle",   "image": "assets/plates/variants/fl_space_shuttle.jpg" }
+    ]
+  },
+  {
+    "code": "GA", "label": "Georgia",
+    "image": "assets/plates/state/GA.jpg",
+    "variants": [
+      { "id": "ga_standard",    "label": "Standard",    "image": "assets/plates/variants/ga_standard.jpg" },
+      { "id": "ga_peach_state", "label": "Peach State", "image": "assets/plates/variants/ga_peach_state.jpg" },
+      { "id": "ga_uga",         "label": "UGA Bulldog", "image": "assets/plates/variants/ga_uga.jpg" }
+    ]
+  },
+  {
+    "code": "HI", "label": "Hawaii",
+    "image": "assets/plates/state/HI.jpg",
+    "variants": [
+      { "id": "hi_standard", "label": "Standard", "image": "assets/plates/variants/hi_standard.jpg" },
+      { "id": "hi_rainbow",  "label": "Rainbow",  "image": "assets/plates/variants/hi_rainbow.jpg" }
+    ]
+  },
+  {
+    "code": "ID", "label": "Idaho",
+    "image": "assets/plates/state/ID.jpg",
+    "variants": [
+      { "id": "id_standard",  "label": "Standard",  "image": "assets/plates/variants/id_standard.jpg" },
+      { "id": "id_famous_potatoes","label": "Famous Potatoes","image": "assets/plates/variants/id_famous_potatoes.jpg" }
+    ]
+  },
+  {
+    "code": "IL", "label": "Illinois",
+    "image": "assets/plates/state/IL.jpg",
+    "variants": [
+      { "id": "il_standard",      "label": "Standard",       "image": "assets/plates/variants/il_standard.jpg" },
+      { "id": "il_lincoln_land",  "label": "Land of Lincoln","image": "assets/plates/variants/il_lincoln_land.jpg" },
+      { "id": "il_cardinal",      "label": "Cardinal",       "image": "assets/plates/variants/il_cardinal.jpg" }
+    ]
+  },
+  {
+    "code": "IN", "label": "Indiana",
+    "image": "assets/plates/state/IN.jpg",
+    "variants": [
+      { "id": "in_standard",   "label": "Standard",        "image": "assets/plates/variants/in_standard.jpg" },
+      { "id": "in_back_home",  "label": "Back Home Again", "image": "assets/plates/variants/in_back_home.jpg" }
+    ]
+  },
+  {
+    "code": "IA", "label": "Iowa",
+    "image": "assets/plates/state/IA.jpg",
+    "variants": [
+      { "id": "ia_standard",   "label": "Standard",     "image": "assets/plates/variants/ia_standard.jpg" },
+      { "id": "ia_hawkeye",    "label": "Hawkeye State","image": "assets/plates/variants/ia_hawkeye.jpg" }
+    ]
+  },
+  {
+    "code": "KS", "label": "Kansas",
+    "image": "assets/plates/state/KS.jpg",
+    "variants": [
+      { "id": "ks_standard",  "label": "Standard",  "image": "assets/plates/variants/ks_standard.jpg" },
+      { "id": "ks_sunflower", "label": "Sunflower",  "image": "assets/plates/variants/ks_sunflower.jpg" }
+    ]
+  },
+  {
+    "code": "KY", "label": "Kentucky",
+    "image": "assets/plates/state/KY.jpg",
+    "variants": [
+      { "id": "ky_standard",   "label": "Standard",   "image": "assets/plates/variants/ky_standard.jpg" },
+      { "id": "ky_bluegrass",  "label": "Bluegrass",  "image": "assets/plates/variants/ky_bluegrass.jpg" }
+    ]
+  },
+  {
+    "code": "LA", "label": "Louisiana",
+    "image": "assets/plates/state/LA.jpg",
+    "variants": [
+      { "id": "la_standard", "label": "Standard", "image": "assets/plates/variants/la_standard.jpg" },
+      { "id": "la_pelican",  "label": "Pelican",  "image": "assets/plates/variants/la_pelican.jpg" }
+    ]
+  },
+  {
+    "code": "ME", "label": "Maine",
+    "image": "assets/plates/state/ME.jpg",
+    "variants": [
+      { "id": "me_standard",      "label": "Standard",      "image": "assets/plates/variants/me_standard.jpg" },
+      { "id": "me_vacationland",  "label": "Vacationland",  "image": "assets/plates/variants/me_vacationland.jpg" }
+    ]
+  },
+  {
+    "code": "MD", "label": "Maryland",
+    "image": "assets/plates/state/MD.jpg",
+    "variants": [
+      { "id": "md_standard", "label": "Standard",   "image": "assets/plates/variants/md_standard.jpg" },
+      { "id": "md_flag",     "label": "State Flag",  "image": "assets/plates/variants/md_flag.jpg" }
+    ]
+  },
+  {
+    "code": "MA", "label": "Massachusetts",
+    "image": "assets/plates/state/MA.jpg",
+    "variants": [
+      { "id": "ma_standard", "label": "Standard", "image": "assets/plates/variants/ma_standard.jpg" },
+      { "id": "ma_spirit",   "label": "Spirit",   "image": "assets/plates/variants/ma_spirit.jpg" }
+    ]
+  },
+  {
+    "code": "MI", "label": "Michigan",
+    "image": "assets/plates/state/MI.jpg",
+    "variants": [
+      { "id": "mi_standard",    "label": "Standard",    "image": "assets/plates/variants/mi_standard.jpg" },
+      { "id": "mi_great_lakes", "label": "Great Lakes", "image": "assets/plates/variants/mi_great_lakes.jpg" },
+      { "id": "mi_wolverine",   "label": "Wolverine",   "image": "assets/plates/variants/mi_wolverine.jpg" }
+    ]
+  },
+  {
+    "code": "MN", "label": "Minnesota",
+    "image": "assets/plates/state/MN.jpg",
+    "variants": [
+      { "id": "mn_standard",  "label": "Standard",   "image": "assets/plates/variants/mn_standard.jpg" },
+      { "id": "mn_explorer",  "label": "Explorer",   "image": "assets/plates/variants/mn_explorer.jpg" },
+      { "id": "mn_loon",      "label": "Loon",       "image": "assets/plates/variants/mn_loon.jpg" }
+    ]
+  },
+  {
+    "code": "MS", "label": "Mississippi",
+    "image": "assets/plates/state/MS.jpg",
+    "variants": [
+      { "id": "ms_standard",   "label": "Standard",    "image": "assets/plates/variants/ms_standard.jpg" },
+      { "id": "ms_magnolia",   "label": "Magnolia",    "image": "assets/plates/variants/ms_magnolia.jpg" }
+    ]
+  },
+  {
+    "code": "MO", "label": "Missouri",
+    "image": "assets/plates/state/MO.jpg",
+    "variants": [
+      { "id": "mo_standard",  "label": "Standard",  "image": "assets/plates/variants/mo_standard.jpg" },
+      { "id": "mo_show_me",   "label": "Show-Me",   "image": "assets/plates/variants/mo_show_me.jpg" }
+    ]
+  },
+  {
+    "code": "MT", "label": "Montana",
+    "image": "assets/plates/state/MT.jpg",
+    "variants": [
+      { "id": "mt_standard", "label": "Standard", "image": "assets/plates/variants/mt_standard.jpg" },
+      { "id": "mt_big_sky",  "label": "Big Sky",  "image": "assets/plates/variants/mt_big_sky.jpg" }
+    ]
+  },
+  {
+    "code": "NE", "label": "Nebraska",
+    "image": "assets/plates/state/NE.jpg",
+    "variants": [
+      { "id": "ne_standard",    "label": "Standard",    "image": "assets/plates/variants/ne_standard.jpg" },
+      { "id": "ne_cornhusker",  "label": "Cornhusker",  "image": "assets/plates/variants/ne_cornhusker.jpg" }
+    ]
+  },
+  {
+    "code": "NV", "label": "Nevada",
+    "image": "assets/plates/state/NV.jpg",
+    "variants": [
+      { "id": "nv_standard",     "label": "Standard",     "image": "assets/plates/variants/nv_standard.jpg" },
+      { "id": "nv_battle_born",  "label": "Battle Born",  "image": "assets/plates/variants/nv_battle_born.jpg" },
+      { "id": "nv_silver_state", "label": "Silver State", "image": "assets/plates/variants/nv_silver_state.jpg" }
+    ]
+  },
+  {
+    "code": "NH", "label": "New Hampshire",
+    "image": "assets/plates/state/NH.jpg",
+    "variants": [
+      { "id": "nh_standard",   "label": "Standard",    "image": "assets/plates/variants/nh_standard.jpg" },
+      { "id": "nh_live_free",  "label": "Live Free",   "image": "assets/plates/variants/nh_live_free.jpg" }
+    ]
+  },
+  {
+    "code": "NJ", "label": "New Jersey",
+    "image": "assets/plates/state/NJ.jpg",
+    "variants": [
+      { "id": "nj_standard",      "label": "Standard",      "image": "assets/plates/variants/nj_standard.jpg" },
+      { "id": "nj_garden_state",  "label": "Garden State",  "image": "assets/plates/variants/nj_garden_state.jpg" }
+    ]
+  },
+  {
+    "code": "NM", "label": "New Mexico",
+    "image": "assets/plates/state/NM.jpg",
+    "variants": [
+      { "id": "nm_standard",           "label": "Standard",            "image": "assets/plates/variants/nm_standard.jpg" },
+      { "id": "nm_land_of_enchantment","label": "Land of Enchantment", "image": "assets/plates/variants/nm_land_of_enchantment.jpg" }
+    ]
+  },
+  {
+    "code": "NY", "label": "New York",
+    "image": "assets/plates/state/NY.jpg",
+    "variants": [
+      { "id": "ny_standard",    "label": "Standard",     "image": "assets/plates/variants/ny_standard.jpg" },
+      { "id": "ny_empire_gold", "label": "Empire Gold",  "image": "assets/plates/variants/ny_empire_gold.jpg" },
+      { "id": "ny_liberty",     "label": "Liberty",      "image": "assets/plates/variants/ny_liberty.jpg" },
+      { "id": "ny_excelsior",   "label": "Excelsior",    "image": "assets/plates/variants/ny_excelsior.jpg" }
+    ]
+  },
+  {
+    "code": "NC", "label": "North Carolina",
+    "image": "assets/plates/state/NC.jpg",
+    "variants": [
+      { "id": "nc_standard",         "label": "Standard",         "image": "assets/plates/variants/nc_standard.jpg" },
+      { "id": "nc_first_in_flight",  "label": "First in Flight",  "image": "assets/plates/variants/nc_first_in_flight.jpg" }
+    ]
+  },
+  {
+    "code": "ND", "label": "North Dakota",
+    "image": "assets/plates/state/ND.jpg",
+    "variants": [
+      { "id": "nd_standard",      "label": "Standard",      "image": "assets/plates/variants/nd_standard.jpg" },
+      { "id": "nd_peace_garden",  "label": "Peace Garden",  "image": "assets/plates/variants/nd_peace_garden.jpg" }
+    ]
+  },
+  {
+    "code": "OH", "label": "Ohio",
+    "image": "assets/plates/state/OH.jpg",
+    "variants": [
+      { "id": "oh_standard",       "label": "Standard",       "image": "assets/plates/variants/oh_standard.jpg" },
+      { "id": "oh_sunrise",        "label": "Sunrise",        "image": "assets/plates/variants/oh_sunrise.jpg" },
+      { "id": "oh_wright_brothers","label": "Wright Brothers","image": "assets/plates/variants/oh_wright_brothers.jpg" }
+    ]
+  },
+  {
+    "code": "OK", "label": "Oklahoma",
+    "image": "assets/plates/state/OK.jpg",
+    "variants": [
+      { "id": "ok_standard",       "label": "Standard",        "image": "assets/plates/variants/ok_standard.jpg" },
+      { "id": "ok_native_america", "label": "Native America",  "image": "assets/plates/variants/ok_native_america.jpg" }
+    ]
+  },
+  {
+    "code": "OR", "label": "Oregon",
+    "image": "assets/plates/state/OR.jpg",
+    "variants": [
+      { "id": "or_standard",    "label": "Standard",    "image": "assets/plates/variants/or_standard.jpg" },
+      { "id": "or_crater_lake", "label": "Crater Lake", "image": "assets/plates/variants/or_crater_lake.jpg" }
+    ]
+  },
+  {
+    "code": "PA", "label": "Pennsylvania",
+    "image": "assets/plates/state/PA.jpg",
+    "variants": [
+      { "id": "pa_standard",  "label": "Standard",   "image": "assets/plates/variants/pa_standard.jpg" },
+      { "id": "pa_keystone",  "label": "Keystone",   "image": "assets/plates/variants/pa_keystone.jpg" },
+      { "id": "pa_penn_state","label": "Penn State",  "image": "assets/plates/variants/pa_penn_state.jpg" }
+    ]
+  },
+  {
+    "code": "RI", "label": "Rhode Island",
+    "image": "assets/plates/state/RI.jpg",
+    "variants": [
+      { "id": "ri_standard", "label": "Standard", "image": "assets/plates/variants/ri_standard.jpg" },
+      { "id": "ri_ocean",    "label": "Ocean State","image": "assets/plates/variants/ri_ocean.jpg" }
+    ]
+  },
+  {
+    "code": "SC", "label": "South Carolina",
+    "image": "assets/plates/state/SC.jpg",
+    "variants": [
+      { "id": "sc_standard", "label": "Standard", "image": "assets/plates/variants/sc_standard.jpg" },
+      { "id": "sc_palmetto", "label": "Palmetto",  "image": "assets/plates/variants/sc_palmetto.jpg" }
+    ]
+  },
+  {
+    "code": "SD", "label": "South Dakota",
+    "image": "assets/plates/state/SD.jpg",
+    "variants": [
+      { "id": "sd_standard",       "label": "Standard",       "image": "assets/plates/variants/sd_standard.jpg" },
+      { "id": "sd_mount_rushmore", "label": "Mount Rushmore", "image": "assets/plates/variants/sd_mount_rushmore.jpg" },
+      { "id": "sd_great_faces",    "label": "Great Faces",    "image": "assets/plates/variants/sd_great_faces.jpg" }
+    ]
+  },
+  {
+    "code": "TN", "label": "Tennessee",
+    "image": "assets/plates/state/TN.jpg",
+    "variants": [
+      { "id": "tn_standard",        "label": "Standard",        "image": "assets/plates/variants/tn_standard.jpg" },
+      { "id": "tn_volunteer_state", "label": "Volunteer State", "image": "assets/plates/variants/tn_volunteer_state.jpg" }
+    ]
+  },
+  {
+    "code": "TX", "label": "Texas",
+    "image": "assets/plates/state/TX.jpg",
+    "variants": [
+      { "id": "tx_standard",          "label": "Standard",           "image": "assets/plates/variants/tx_standard.jpg" },
+      { "id": "tx_lone_star",         "label": "Lone Star",          "image": "assets/plates/variants/tx_lone_star.jpg" },
+      { "id": "tx_bluebonnet",        "label": "Bluebonnet",         "image": "assets/plates/variants/tx_bluebonnet.jpg" },
+      { "id": "tx_come_and_take_it",  "label": "Come and Take It",   "image": "assets/plates/variants/tx_come_and_take_it.jpg" }
+    ]
+  },
+  {
+    "code": "UT", "label": "Utah",
+    "image": "assets/plates/state/UT.jpg",
+    "variants": [
+      { "id": "ut_standard",       "label": "Standard",        "image": "assets/plates/variants/ut_standard.jpg" },
+      { "id": "ut_life_elevated",  "label": "Life Elevated",   "image": "assets/plates/variants/ut_life_elevated.jpg" },
+      { "id": "ut_arches",         "label": "Arches",          "image": "assets/plates/variants/ut_arches.jpg" },
+      { "id": "ut_greatest_snow",  "label": "Greatest Snow",   "image": "assets/plates/variants/ut_greatest_snow.jpg" }
+    ]
+  },
+  {
+    "code": "VT", "label": "Vermont",
+    "image": "assets/plates/state/VT.jpg",
+    "variants": [
+      { "id": "vt_standard",      "label": "Standard",       "image": "assets/plates/variants/vt_standard.jpg" },
+      { "id": "vt_green_mountain","label": "Green Mountain",  "image": "assets/plates/variants/vt_green_mountain.jpg" }
+    ]
+  },
+  {
+    "code": "VA", "label": "Virginia",
+    "image": "assets/plates/state/VA.jpg",
+    "variants": [
+      { "id": "va_standard",              "label": "Standard",               "image": "assets/plates/variants/va_standard.jpg" },
+      { "id": "va_old_dominion",          "label": "Old Dominion",           "image": "assets/plates/variants/va_old_dominion.jpg" },
+      { "id": "va_virginia_is_for_lovers","label": "Virginia is for Lovers", "image": "assets/plates/variants/va_virginia_is_for_lovers.jpg" }
+    ]
+  },
+  {
+    "code": "WA", "label": "Washington",
+    "image": "assets/plates/state/WA.jpg",
+    "variants": [
+      { "id": "wa_standard",  "label": "Standard",  "image": "assets/plates/variants/wa_standard.jpg" },
+      { "id": "wa_evergreen", "label": "Evergreen",  "image": "assets/plates/variants/wa_evergreen.jpg" },
+      { "id": "wa_orca",      "label": "Orca",       "image": "assets/plates/variants/wa_orca.jpg" }
+    ]
+  },
+  {
+    "code": "WV", "label": "West Virginia",
+    "image": "assets/plates/state/WV.jpg",
+    "variants": [
+      { "id": "wv_standard",      "label": "Standard",       "image": "assets/plates/variants/wv_standard.jpg" },
+      { "id": "wv_mountain_mama", "label": "Mountain Mama",  "image": "assets/plates/variants/wv_mountain_mama.jpg" }
+    ]
+  },
+  {
+    "code": "WI", "label": "Wisconsin",
+    "image": "assets/plates/state/WI.jpg",
+    "variants": [
+      { "id": "wi_standard",           "label": "Standard",           "image": "assets/plates/variants/wi_standard.jpg" },
+      { "id": "wi_america_dairyland",  "label": "America's Dairyland","image": "assets/plates/variants/wi_america_dairyland.jpg" },
+      { "id": "wi_forward",            "label": "Forward",            "image": "assets/plates/variants/wi_forward.jpg" }
+    ]
+  },
+  {
+    "code": "WY", "label": "Wyoming",
+    "image": "assets/plates/state/WY.jpg",
+    "variants": [
+      { "id": "wy_standard",       "label": "Standard",       "image": "assets/plates/variants/wy_standard.jpg" },
+      { "id": "wy_equality_state", "label": "Equality State", "image": "assets/plates/variants/wy_equality_state.jpg" },
+      { "id": "wy_bucking_horse",  "label": "Bucking Horse",  "image": "assets/plates/variants/wy_bucking_horse.jpg" }
+    ]
+  },
+  {
+    "code": "DC", "label": "Washington D.C.",
+    "image": "assets/plates/state/DC.jpg",
+    "variants": [
+      { "id": "dc_standard",                    "label": "Standard",                      "image": "assets/plates/variants/dc_standard.jpg" },
+      { "id": "dc_taxation_without_representation","label": "Taxation Without Representation","image": "assets/plates/variants/dc_taxation_without_representation.jpg" }
+    ]
+  },
+  {
+    "code": "PR", "label": "Puerto Rico",
+    "image": "assets/plates/state/PR.jpg",
+    "variants": []
+  },
+  {
+    "code": "GU", "label": "Guam",
+    "image": "assets/plates/state/GU.jpg",
+    "variants": []
+  },
+  {
+    "code": "VI", "label": "U.S. Virgin Islands",
+    "image": "assets/plates/state/VI.jpg",
+    "variants": []
+  },
+  {
+    "code": "AS", "label": "American Samoa",
+    "image": "assets/plates/state/AS.jpg",
+    "variants": []
+  },
+  {
+    "code": "MP", "label": "N. Mariana Islands",
+    "image": "assets/plates/state/MP.jpg",
+    "variants": []
+  },
+  {
+    "code": "US_GOV", "label": "U.S. Government",
+    "image": "assets/plates/state/US_GOV.jpg",
+    "variants": []
+  },
+  {
+    "code": "US_MIL", "label": "U.S. Military",
+    "image": "assets/plates/state/US_MIL.jpg",
+    "variants": [
+      { "id": "us_mil_army",        "label": "Army",         "image": "assets/plates/variants/us_mil_army.jpg" },
+      { "id": "us_mil_navy",        "label": "Navy",         "image": "assets/plates/variants/us_mil_navy.jpg" },
+      { "id": "us_mil_air_force",   "label": "Air Force",    "image": "assets/plates/variants/us_mil_air_force.jpg" },
+      { "id": "us_mil_marines",     "label": "Marines",      "image": "assets/plates/variants/us_mil_marines.jpg" },
+      { "id": "us_mil_coast_guard", "label": "Coast Guard",  "image": "assets/plates/variants/us_mil_coast_guard.jpg" },
+      { "id": "us_mil_space_force", "label": "Space Force",  "image": "assets/plates/variants/us_mil_space_force.jpg" }
+    ]
+  }
+]

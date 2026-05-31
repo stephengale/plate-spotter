@@ -1,0 +1,26 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    match /accessTokens/{id} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    match /users/{userId} {
+      allow read, create: if true;
+      allow update, delete: if false;
+    }
+
+    match /sessions/{sessionId} {
+      allow read, create: if true;
+      allow update, delete: if true;
+
+      match /spots/{spotId} {
+        allow read, create: if true;
+        allow update: if false;
+        allow delete: if true;
+      }
+    }
+  }
+}

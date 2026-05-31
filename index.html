@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Plate Spotter</title>
+
+  <script type="importmap">
+  {
+    "imports": {
+      "firebase/app":       "https://www.gstatic.com/firebasejs/10.13.0/firebase-app.js",
+      "firebase/firestore": "https://www.gstatic.com/firebasejs/10.13.0/firebase-firestore.js"
+    }
+  }
+  </script>
+
+  <link rel="stylesheet" href="src/css/app.css">
+</head>
+<body>
+
+  <!-- Loading -->
+  <div id="screen-loading" class="screen active">
+    <div class="center-wrap">
+      <div class="spinner"></div>
+      <p class="loading-text">Loading…</p>
+    </div>
+  </div>
+
+  <!-- Error -->
+  <div id="screen-error" class="screen">
+    <div class="center-wrap">
+      <div class="error-icon">&#9888;</div>
+      <h2>Access Denied</h2>
+      <p id="error-message">Invalid or missing access token.</p>
+    </div>
+  </div>
+
+  <!-- User Select -->
+  <div id="screen-user-select" class="screen">
+    <div class="page-header">
+      <h1>Plate Spotter</h1>
+      <p class="subtitle">Who's playing?</p>
+    </div>
+    <div class="screen-body">
+      <div id="user-list" class="item-list"></div>
+      <div id="new-player-form" class="inline-form hidden">
+        <input id="new-player-name" type="text" placeholder="Player name" maxlength="30" autocomplete="off">
+        <p id="new-player-error" class="form-error hidden"></p>
+        <div class="form-row">
+          <button id="btn-cancel-player" class="btn btn-ghost">Cancel</button>
+          <button id="btn-save-player" class="btn btn-primary">Save</button>
+        </div>
+      </div>
+      <div class="list-footer">
+        <button id="btn-new-player" class="btn btn-primary btn-full">+ New Player</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Session Select -->
+  <div id="screen-session-select" class="screen">
+    <div class="page-header with-action">
+      <div>
+        <h1>Sessions</h1>
+        <p id="session-player-label" class="subtitle"></p>
+      </div>
+      <button id="btn-switch-player" class="btn btn-ghost-sm">Switch Player</button>
+    </div>
+    <div class="screen-body">
+      <div id="session-list" class="item-list"></div>
+      <div class="list-footer">
+        <button id="btn-new-session" class="btn btn-primary btn-full">+ New Session</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Game — State Grid -->
+  <div id="screen-game" class="screen">
+    <header class="game-header">
+      <span id="game-session-name" class="header-session-name"></span>
+      <button id="btn-player-switcher" class="header-player-btn">
+        <span id="game-player-name" class="header-player-name"></span>
+        <svg class="icon-sm" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/>
+        </svg>
+      </button>
+      <button id="btn-end-session" class="btn btn-danger-sm">End</button>
+    </header>
+    <div class="game-summary-bar">
+      <div class="summary-stat">
+        <span id="stat-total-spots" class="stat-value">0</span>
+        <span class="stat-label">spots</span>
+      </div>
+      <div class="summary-divider"></div>
+      <div class="summary-stat">
+        <span id="stat-types-spotted" class="stat-value">0</span>
+        <span class="stat-label">/ <span id="stat-types-total">0</span> types</span>
+      </div>
+    </div>
+    <div id="plate-grid" class="plate-grid"></div>
+  </div>
+
+  <!-- Game — Variant Grid -->
+  <div id="screen-variant" class="screen">
+    <header class="variant-header">
+      <button id="btn-variant-back" class="btn-icon-back">
+        <svg viewBox="0 0 24 24" fill="currentColor" class="icon-md">
+          <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/>
+        </svg>
+      </button>
+      <span id="variant-state-label" class="header-title"></span>
+    </header>
+    <div id="variant-grid" class="plate-grid variant-grid-body"></div>
+  </div>
+
+  <!-- Bottom Sheet -->
+  <div id="sheet-overlay" class="sheet-overlay hidden"></div>
+  <div id="bottom-sheet" class="bottom-sheet hidden"></div>
+
+  <!-- Toast -->
+  <div id="toast" class="toast"></div>
+
+  <script type="module" src="src/js/app.js"></script>
+</body>
+</html>
